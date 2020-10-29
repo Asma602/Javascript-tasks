@@ -1,0 +1,87 @@
+.container{
+    /* border: 1px solid black; */
+    width:40%;
+    margin-left: 28%;
+    margin-top: 2%;
+    padding: 0;
+    /* box-shadow: 2px 2px 2px 2px lightgray; */
+}
+.header-row{
+    background-color: darkblue;
+    height: 10vh;
+    text-align: center;
+    padding-top: 20px;
+    border:none;
+}
+.register-heading{
+    margin: 0px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.field-area{
+    border: 1px solid lightgray;
+}
+
+input:focus{
+    outline: none !important;
+    border-color:darkblue;
+    transition:0.3s ease-in;
+
+}
+#form-container{
+    margin-top: 5%;
+}
+.form-field{
+    padding: 10px 20px;
+    margin-left: 15%;
+    position: relative;
+    /* padding-bottom: 10px; */
+}
+.form-control{
+    /* padding: 10px; */
+    border: none;
+    border-bottom:1px solid lightgrey;
+    width:80%;
+}
+.form-btn{
+    background-color: darkblue;
+    padding: 15px;
+    border:none;
+    width: 30%;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+}
+.horizontal-line{
+    width: 40%;
+}
+input{
+    padding: 10px 0px;
+    /* position: relative; */
+    margin-bottom: 30px;
+ }
+  input:focus ~ label, input:valid ~ label{
+    top: -20px;
+    left: 0px;
+    color:darkblue;
+    font-size: 10px;
+}  
+/* .focusedClass{
+    top : -20px;
+    left: 0px;
+    color:darkblue;
+    font-size: 10px;
+} */
+.labelClass{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+    padding: 10px 0px;
+    margin-top: 10px;
+    pointer-events: none;
+    transition: 0.5s;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
